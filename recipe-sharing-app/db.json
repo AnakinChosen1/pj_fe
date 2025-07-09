@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "demo",
+      "email": "demo@example.com",
+      "password": "123456",
+      "avatar": "https://i.pravatar.cc/100?u=demo"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish",
+      "ingredients": [
+        "spaghetti",
+        "ground beef",
+        "tomato sauce"
+      ],
+      "instructions": "Cook pasta, prepare sauce, combine.",
+      "cookingTime": 45,
+      "servings": 4,
+      "category": "Dinner",
+      "rating": 5,
+      "favorites": [
+        1
+      ],
+      "nutritionalInfo": {
+        "calories": 600,
+        "protein": 25,
+        "fat": 15,
+        "carbs": 80
+      },
+      "comments": [
+        {
+          "username": "User1",
+          "text": "Delicious!",
+          "timestamp": "2025-06-01T10:00:00Z"
+        },
+        {
+          "username": "demo",
+          "text": "ok",
+          "timestamp": "2025-07-02T14:30:33.232Z"
+        }
+      ]
+    },
+    {
+      "id": "cc50",
+      "title": "Spaghetti",
+      "description": "Classic",
+      "ingredients": [
+        "spaghetti",
+        "tomato",
+        ""
+      ],
+      "instructions": "Cook",
+      "cookingTime": "20",
+      "servings": "3",
+      "category": "Dinner"
+    }
+  ]
+}
